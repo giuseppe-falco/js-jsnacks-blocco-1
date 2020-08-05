@@ -3,8 +3,23 @@
 // inserisci primo numero
 
 var number = prompt("inserisci un numero");
-while (isNaN  (number) || (number == "") || (number == " ")){
+if (isNaN  (number) || (number == "") || (number == " ")){
 number = prompt("Ops, hai sbagliato qualcosa! Riprova");
+  if (isNaN  (number) || (number == "") || (number == " ")){
+  number = prompt("Ops, hai sbagliato qualcosa! Riprova");
+  }
+  if (isNaN  (number) || (number == "") || (number == " ")){
+  number = prompt("Ops, hai sbagliato qualcosa! Riprova");
+  }
+  if (isNaN  (number) || (number == "") || (number == " ")){
+  number = prompt("Ops, hai sbagliato qualcosa! Riprova");
+  }
+  if (isNaN  (number) || (number == "") || (number == " ")){
+  number = prompt("Ops, hai sbagliato qualcosa! Riprova");
+  }
+  if (isNaN  (number) || (number == "") || (number == " ")){
+    alert("Eh ma allora sei coglione se sbagli 5 volte ! ")
+  }
 }
 number = Math.round(parseInt(number))
 console.log(number);
