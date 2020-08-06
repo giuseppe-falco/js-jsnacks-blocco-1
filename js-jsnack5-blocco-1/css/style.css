@@ -1,0 +1,14 @@
+.box{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box-rosso{
+  background-color: red;
+}
+
+.box-verde{
+  background-color: green;
+}
